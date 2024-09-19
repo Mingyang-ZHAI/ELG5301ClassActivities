@@ -79,3 +79,45 @@
 2024-09-19 15:03:27 - INFO - Searched contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
 2024-09-19 15:03:27 - INFO - Updated contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
 2024-09-19 15:03:27 - INFO - Searched contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:27:02 - INFO - Added contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:27:02 - INFO - Added contact: Jane Smith | Phone: (987) 654-3210 | Email: jane.smith@example.com | Address: 456 Elm St
+2024-09-19 15:27:02 - INFO - Imported contacts from /Users/mingyang/Downloads/ECE/5300FullStack/excercise/5301/phonebook/test/test_contacts.csv
+2024-09-19 15:27:13 - INFO - Searched contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:28:44 - INFO - Added contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:28:44 - INFO - Added contact: Jane Smith | Phone: (987) 654-3210 | Email: jane.smith@example.com | Address: 456 Elm St
+2024-09-19 15:28:44 - INFO - Imported contacts from /Users/mingyang/Downloads/ECE/5300FullStack/excercise/5301/phonebook/test/test_contacts.csv
+2024-09-19 15:29:23 - INFO - Searched contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:29:53 - INFO - Contact not found, cannot update
+2024-09-19 15:30:04 - INFO - Added contact: d f | Phone: 4444444444 | Email: N/A | Address: N/A
+2024-09-19 15:30:18 - INFO - Searched contact: d f | Phone: 4444444444 | Email: N/A | Address: N/A
+2024-09-19 15:30:32 - INFO - Searched contact: d f | Phone: 4444444444 | Email: N/A | Address: N/A
+2024-09-19 15:30:32 - INFO - Updated contact: dddd f | Phone: 4444444444 | Email: N/A | Address: N/A
+2024-09-19 15:30:40 - INFO - Searched contact: dddd f | Phone: 4444444444 | Email: N/A | Address: N/A
+2024-09-19 15:34:33 - INFO - Added contact: d f | Phone: 7778889999 | Email: N/A | Address: N/A
+2024-09-19 15:34:47 - INFO - Searched contact: d f | Phone: 7778889999 | Email: N/A | Address: N/A
+2024-09-19 15:35:51 - INFO - Added contact: d f | Phone: 4447778888 | Email: N/A | Address: N/A
+2024-09-19 15:36:07 - INFO - Searched contact: d f | Phone: 4447778888 | Email: N/A | Address: N/A
+2024-09-19 15:38:14 - INFO - Added contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:38:14 - INFO - Added contact: Jane Smith | Phone: (987) 654-3210 | Email: jane.smith@example.com | Address: 456 Elm St
+2024-09-19 15:38:14 - INFO - Imported contacts from /Users/mingyang/Downloads/ECE/5300FullStack/excercise/5301/phonebook/test/test_contacts.csv
+2024-09-19 15:38:18 - INFO - Added contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:38:18 - INFO - Added contact: Jane Smith | Phone: (987) 654-3210 | Email: jane.smith@example.com | Address: 456 Elm St
+2024-09-19 15:38:18 - INFO - Imported contacts from /Users/mingyang/Downloads/ECE/5300FullStack/excercise/5301/phonebook/test/test_contacts.csv
+2024-09-19 15:38:37 - INFO - Searched contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:38:37 - INFO - Searched contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:40:42 - INFO - Added contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:40:42 - INFO - Added contact: Jane Smith | Phone: (987) 654-3210 | Email: jane.smith@example.com | Address: 456 Elm St
+2024-09-19 15:40:42 - INFO - Imported contacts from /Users/mingyang/Downloads/ECE/5300FullStack/excercise/5301/phonebook/test/test_contacts.csv
+2024-09-19 15:41:00 - INFO - Searched contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:41:00 - INFO - Updated contact: JohnJohn Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:41:26 - INFO - Searched contact: JohnJohn Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:44:34 - INFO - Added contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:44:34 - INFO - Added contact: Jane Smith | Phone: (987) 654-3210 | Email: jane.smith@example.com | Address: 456 Elm St
+2024-09-19 15:44:34 - INFO - Imported contacts from /Users/mingyang/Downloads/ECE/5300FullStack/excercise/5301/phonebook/test/test_contacts.csv
+2024-09-19 15:44:49 - INFO - Searched contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:44:49 - INFO - Updated contact: JohnJohn Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:44:59 - INFO - Searched contact: JohnJohn Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:45:47 - INFO - Added contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:45:47 - INFO - Searched contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:45:47 - INFO - Updated contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St
+2024-09-19 15:45:47 - INFO - Searched contact: John Doe | Phone: (123) 456-7890 | Email: john.doe@example.com | Address: 123 Main St

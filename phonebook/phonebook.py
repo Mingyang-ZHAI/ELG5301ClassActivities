@@ -109,6 +109,17 @@ class PhoneBook:
         old_contacts = self.view_contacts(aim_type, aim_term)
         if old_contacts:
             for old_contact in old_contacts:
+
+                # save the old data to history
+                old_data = {
+                    'first_name': old_contact.first_name,
+                    'last_name': old_contact.last_name,
+                    'phone_number': old_contact.phone_number,
+                    'email': old_contact.email,
+                    'address': old_contact.address,
+                    'created_time': old_contact.created_time,
+                    'updated_time': old_contact.updated_time
+                }
                 if first_name:
                     old_contact.first_name = first_name
                 if last_name:
@@ -119,6 +130,7 @@ class PhoneBook:
                     old_contact.email = email
                 if address:
                     old_contact.address = address
+                old_contact.updated_time = datetime.now()
                 log_content = "Updated contact: {} {} | Phone: {} | Email: {} | Address: {}".format(
                     old_contact.first_name,
                     old_contact.last_name,
@@ -126,6 +138,22 @@ class PhoneBook:
                     old_contact.email or 'N/A',
                     old_contact.address or 'N/A'
                 )
+
+                new_data = {
+                    'first_name': old_contact.first_name,
+                    'last_name': old_contact.last_name,
+                    'phone_number': old_contact.phone_number,
+                    'email': old_contact.email,
+                    'address': old_contact.address,
+                    'created_time': old_contact.created_time,
+                    'updated_time': old_contact.updated_time
+                }
+                # Record the old data in the history log list
+                old_contact.history.append({
+                    'old_data': old_data,
+                    'new_data': new_data
+                })
+                print("Old data recorded:", old_data)  # Print the old data
                 log_info(log_content)
                 print(log_content)
         else:

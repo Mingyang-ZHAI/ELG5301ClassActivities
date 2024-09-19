@@ -6,7 +6,7 @@ This module defines the command-line interface for the Phone Book Management App
 
 import sys
 from phonebook.phonebook import PhoneBook
-# from phonebook.contact import Contact
+from phonebook.contact import Contact
 
 def main():
     """
@@ -102,13 +102,15 @@ def main():
                     history = contact.view_history()
                     print(f"History for {contact.first_name} {contact.last_name}:")
                     for record in history:
-                        print(f"Old Data Timestamp: {record['old_data']['timestamp']}")
+                        print(f"Old Data Update time: {record['old_data']['updated_time']}")
+                        print(f"  Created time: {record['old_data']['created_time']}")
                         print(f"  First Name: {record['old_data']['first_name']}")
                         print(f"  Last Name: {record['old_data']['last_name']}")
                         print(f"  Phone Number: {record['old_data']['phone_number']}")
                         print(f"  Email: {record['old_data']['email']}")
                         print(f"  Address: {record['old_data']['address']}")
-                        print(f"New Data Timestamp: {record['new_data']['timestamp']}")
+                        print(f"New Data Update time: {record['new_data']['updated_time']}")
+                        print(f"  Created time: {record['new_data']['created_time']}")
                         print(f"  First Name: {record['new_data']['first_name']}")
                         print(f"  Last Name: {record['new_data']['last_name']}")
                         print(f"  Phone Number: {record['new_data']['phone_number']}")

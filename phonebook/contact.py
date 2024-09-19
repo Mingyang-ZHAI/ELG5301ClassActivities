@@ -2,7 +2,7 @@
 This module defines the Contact class.
 """
 
-
+import uuid
 from datetime import datetime
 
 class Contact:
@@ -30,6 +30,7 @@ class Contact:
         email (str, optional): The email address of the contact.
         address (str, optional): The physical address of the contact.
         """
+        self.id = uuid.uuid4()  # Generate a unique identifier for each contact
         self.first_name = first_name
         self.last_name = last_name
         self.phone_number = phone_number
