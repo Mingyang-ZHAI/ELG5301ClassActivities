@@ -100,7 +100,7 @@ The app was tested under various scenarios:
 	3.	Updating Contacts: Verified that updates are logged and changes reflect correctly.
 	4.	Deleting Contacts: Tested both individual and batch deletions.
 	5.	Sorting and Grouping: Tested correct sorting and grouping of contacts.
-	6.	Error Handling: Made sure the app catches invalid inputs and shows clear messages.
+	6.	Viewing history: Tested that history shows correctly after updated values.
 ---
 
 ## How to Use
