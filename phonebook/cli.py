@@ -6,7 +6,7 @@ This module defines the command-line interface for the Phone Book Management App
 
 import sys
 from phonebook.phonebook import PhoneBook
-from phonebook.contact import Contact
+# from phonebook.contact import Contact
 
 def main():
     """
