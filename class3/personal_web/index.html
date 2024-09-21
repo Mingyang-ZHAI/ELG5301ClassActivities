@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#cv">My CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="login" class="form-section">
+            <div class="container login-container">
+                <div class="photo-container">
+                    <img src="/Users/mingyang/Downloads/photo1.jpg" alt="Your Photo">
+                </div>
+                <div class="form-container">
+                    <form action="#">
+                        <h1>Sign In</h1>
+                        <div class="social-container">
+                            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <span>or use your account</span>
+                        <input type="email" placeholder="Email" required />
+                        <input type="password" placeholder="Password" required />
+                        <a href="#">Forgot your password?</a>
+                        <button>Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="register" class="form-section">
+            <div class="container">
+                <div class="form-container">
+                    <form action="#">
+                        <h1>Create Account</h1>
+                        <div class="social-container">
+                            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <span>or use your email for registration</span>
+                        <input type="text" placeholder="Name" required />
+                        <input type="email" placeholder="Email" required />
+                        <input type="password" placeholder="Password" required />
+                        <button>Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="info-section">
+            <div class="container">
+                <h1>About Me</h1>
+                <p>Hi, I'm Mingyang Zhai. I'm a student at the University of Ottawa, Canada. I am looking for a job as a data engineer.</p>
+                <p>I have a strong passion for data analysis, machine learning, and big data technologies. I enjoy solving complex problems and turning data into actionable insights.</p>
+                <p>Connect with me on <a href="https://www.linkedin.com/in/mingyang-zhai-386226176/" target="_blank">LinkedIn</a> and <a href="https://github.com/Mingyang096/" target="_blank">GitHub</a>.</p>
+                <div class="about-photos">
+                    <img src="https://via.placeholder.com/150" alt="Data Analysis">
+                    <img src="https://via.placeholder.com/150" alt="Machine Learning">
+                    <img src="https://via.placeholder.com/150" alt="Big Data">
+                </div>
+            </div>
+        </section>
+        <section id="cv" class="info-section">
+            <div class="container">
+                <h1>My CV</h1>
+                <p>Here is a brief overview of my professional experience and skills.</p>
+                <ul>
+                    <li><strong>Experience:</strong> Intern at XYZ Company, Data Analyst at ABC Corp</li>
+                    <li><strong>Skills:</strong> Python, SQL, Hadoop, Spark, Machine Learning, Data Visualization</li>
+                    <li><strong>Education:</strong> B.Sc. in Computer Science, University of Ottawa</li>
+                </ul>
+                <p>You can download my CV <a href="/Users/mingyang/Downloads/CV/MingyangZhai_UO.pdf" target="_blank">here</a>.</p>
+            </div>
+        </section>
+        <section id="contact" class="info-section">
+            <div class="container">
+                <h1>Contact</h1>
+                <p>Feel free to reach out to me at:</p>
+                <p>Tel: 111-222-3333</p>
+                <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
