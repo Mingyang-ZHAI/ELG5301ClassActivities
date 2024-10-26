@@ -1,9 +1,9 @@
-name: Run Django Tests
+# test.yml
 
+name: Run Django Tests
 on:
   push:
     branches: [master]
-
 jobs:
   test-django-app:
     runs-on: ubuntu-latest
@@ -11,7 +11,6 @@ jobs:
       fail-fast: false
       matrix:
         python-version: ["3.9"]
-
     steps:
       - uses: actions/checkout@v3
         with:
@@ -28,4 +27,5 @@ jobs:
         run: |
           cd project
           python manage.py test
+
           
